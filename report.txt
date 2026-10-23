@@ -1,3 +1,14 @@
 Task 1: Access Matrix
 
-Overall, this task was easier to implement given that I have more knowledge and experience.  Most of it was a simple Java project with semaphores and threads added on top, and anything "new" was a skill developed in project 1.  This task cannot result in a deadlock, but would if threads required more than one resource, could not give up resources before finishing a task, could not have a resource taken from it, and if there was a circular wait and all threads depended on another thread.
+Overall, this task was easier to implement given that I have more knowledge and experience.
+Most of it was a simple Java project with semaphores and threads added on top, and anything
+"new" was a skill developed in project 1.  This task cannot result in a deadlock, but would
+if threads required more than one resource, could not give up resources before finishing a task, could not have a resource taken
+from it, and if there was a circular wait and all threads depended on another thread.
+
+Task 2: Implementation with Access Lists for Objects
+
+1.	How does this task compare with Task 1? Which is easier to implement?
+Task 1 is simpler to implement because the access matrix allows the user to access information
+easier. Compared to Task 2 where permissions are stored separately for each file and domain.
+
