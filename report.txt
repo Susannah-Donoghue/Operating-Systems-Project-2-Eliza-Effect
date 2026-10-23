@@ -16,3 +16,13 @@ What is the importance of protection in a multi-user system? What could happen i
 Protection is very important in a multi-user system because not all users need the same permissions. The principle of least privilege
 keeps the whole system safe from both malicious and innocent changes. If all users were granted equal permission, a hacker could
 easily get into the system, or an unknowing user could accidentally delete/change an important file.
+
+Task 3: Implementation with Capability Lists for Domains
+
+1. What disadvantages do capability lists introduce given a more domain-based approach?
+
+    Capability lists can be difficult to manage because each domain has its own lists
+    of object and the permission it has for them. The number of domains and objects increases
+    managing and updating permissions becomes more complicated. Revoking access can also be difficult
+    because the same object may appear in multiple capability  lists. Also domain switching requires extra permissions checks which
+    adds to the complexity.

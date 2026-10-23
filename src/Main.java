@@ -180,6 +180,20 @@ public class Main {
                 }
             }
         }
+        // TASK 3
 
+        else if (args.length == 2
+                && args[0].equals("-S")
+                && args[1].equals("3")) {
+            // Create capability list
+            // Generates the domains, files, and permissions
+            CapabilityLists system = new CapabilityLists();
+
+            // Print capability lists and start domain threads
+            system.runSimulation();
+
+        } else {
+            System.err.println("Invalid arguments. Usage: -S 1, -S 2, or -S 3");
+        }
     }
 }
