@@ -8,7 +8,11 @@ from it, and if there was a circular wait and all threads depended on another th
 
 Task 2: Implementation with Access Lists for Objects
 
-1.	How does this task compare with Task 1? Which is easier to implement?
+How does this task compare with Task 1? Which is easier to implement?
 Task 1 is simpler to implement because the access matrix allows the user to access information
 easier. Compared to Task 2 where permissions are stored separately for each file and domain.
 
+What is the importance of protection in a multi-user system? What could happen if all users were granted equal permission?
+Protection is very important in a multi-user system because not all users need the same permissions. The principle of least privilege
+keeps the whole system safe from both malicious and innocent changes. If all users were granted equal permission, a hacker could
+easily get into the system, or an unknowing user could accidentally delete/change an important file.
